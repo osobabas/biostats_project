@@ -7,3 +7,16 @@ The study was conducted on 340 labrador retrievers from the Canine Training Cent
 
 ## Statistical hypotheses:
 The null hypothesis is that the genotype difference in oxytocin receptors(OXTR) and personality(factor1 & factor2) has no effect on the dog’s success in drug detection training. The alternative hypothesis is that genotype in oxytocin receptors and personality have an effect on a dog’s success in drug detection.  The underlying biological hypothesis is that the polymorphism of oxytocin receptors can make a dog more successful during training. Appropriate statistical tests to test the null would be logistic regression. 
+
+## Statistical approach:
+
+I conducted a logistic regression along with an ANOVA chi2test. We assume that the data is unbiased and independent. We assume that the variance is independent of predictors and that error is normally distributed. GLMS are used instead of a linear model when the data breaks assumptions like binomial and count data. This dataset does meet logistic regression assumptions of data being independent and unbiased. It also meets that the error was normally distributed. I conducted a logistic regression by putting all the explanatory variables and the response variable(qualification) into one model. 
+Another major aspect of the dataset was personality and I used a Principal Component Analysis (PCA). I conducted a PCA to get a better image of how personality affects the qualification of the dog.  The PCA allowed me to get a better understanding of variation amongst the personality items. The PCA looked at the 7 personality items and saw how which items affect qualification more. The principal component analysis allowed me to get a better understanding of the dataset and how personality affected the trainability of the dogs. The researchers originally used a different type of statistical test which does the same thing as a PCA. 
+
+##  Results:
+I conducted a logistic regression with four explanatory variables (sex, factor1, factor2, and genotype) on the dog’s trainability(qualification).  In order, to find a p-value and deviance, I used the full model and an ANOVA(chi2test). Looking at table 1, with the logistic regression only a few of the explanatory variables actually have a significant effect. Genotype has a significant effect on a dog's trainability. We reject the null hypothesis, so genotype has a significant effect.  More specifically genotype T/C has the highest effect on a  dog’s qualification during training figure 1 is also able to portray it. This maps back to the biological drive as polymorphism does indeed affect the dog’s trainability. Factor 1(Training focus) also has a significant effect on the dog’s trainability. The parameter estimate of  factor1 was 1.92. This is due to the fact that the p-value is less than alpha, which means we reject the null hypothesis. So dogs that have higher training focus tend to qualify during training. Both sex and factor2 didn’t have enough evidence to reject the null. We fail to reject the null for sex with a parameter estimate of 0.54 for the male sex. Factor2(tolerance) had a parameter estimate of 0.00437.  We also fail to reject the null for factor2 since it's much larger than alpha(a= 0.05). 
+
+
+
+
+
