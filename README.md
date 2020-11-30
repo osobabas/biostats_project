@@ -24,6 +24,7 @@ I conducted a logistic regression with four explanatory variables (sex, factor1,
 
 
 A PCA was conducted on the 7 personality items which found the variability of personality. In figure 5, all 7 personality items can be seen along with their relationship to qualification. Higher PC2 is closely related to tolerance to dogs the more independent the dog lower PC2. While the other 5 personality items(concentration, interest in dummy, friendliness to humans, boldness & activity) have a directly proportional relationship with PC1. So, in fact, PC1 and factor1 are indeed the exact same and the same goes for PC2 and factor2. The figure also shows that higher PC1 also presents that dogs tend to receive qualification during training. Figure 3 shows that PC1 has a larger effect on the qualification than even genotype. PC1 is mainly training focus of the dog which makes sense that a more focused dog will qualify. With figure 3 you can see that with an increase of PC1(training focus) a dog is much more trainable and qualifies. 
+
 <img width="451" alt="Screen Shot 2020-11-29 at 5 16 01 PM" src="https://user-images.githubusercontent.com/75222465/100556248-9ef76b00-3266-11eb-925d-3d448df40ab0.png">
 <img width="407" alt="Screen Shot 2020-11-29 at 5 16 13 PM" src="https://user-images.githubusercontent.com/75222465/100556250-a28af200-3266-11eb-80d3-c0d8823fa73c.png">
 
